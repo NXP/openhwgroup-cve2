@@ -330,10 +330,6 @@ The implemented set of CSRs includes the following registers:
 |        |                                                              |
 |        | 0x7a3 tdata3 // trigger data register 3                      |
 |        |                                                              |
-|        | 0x7a8 mcontext // machine context register                   |
-|        |                                                              |
-|        | 0x7aa scontext // supervisor context register                |
-|        |                                                              |
 |        | 0x7b0 dcsr // debug control and status register              |
 |        |                                                              |
 |        | 0x7b1 dpc // debug pc register                               |

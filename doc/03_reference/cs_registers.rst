@@ -58,10 +58,6 @@ Ibex implements all the Control and Status Registers (CSRs) listed in the follow
 +---------+--------------------+--------+-----------------------------------------------+
 |  0x7A3  | ``tdata3``         | WARL   | Trigger Data Register 3                       |
 +---------+--------------------+--------+-----------------------------------------------+
-|  0x7A8  | ``mcontext``       | WARL   | Machine Context Register                      |
-+---------+--------------------+--------+-----------------------------------------------+
-|  0x7AA  | ``scontext``       | WARL   | Supervisor Context Register                   |
-+---------+--------------------+--------+-----------------------------------------------+
 |  0x7B0  | ``dcsr``           | WARL   | Debug Control and Status Register             |
 +---------+--------------------+--------+-----------------------------------------------+
 |  0x7B1  | ``dpc``            | RW     | Debug PC                                      |
@@ -399,28 +395,6 @@ Trigger Data Register 3 (tdata3)
 --------------------------------
 
 CSR Address: ``0x7A3``
-
-Reset Value: ``0x0000_0000``
-
-Accessible in Debug Mode or M-Mode.
-
-Ibex does not support the features requiring this register, so writes are ignored and it will always read as zero.
-
-Machine Context Register (mcontext)
------------------------------------
-
-CSR Address: ``0x7A8``
-
-Reset Value: ``0x0000_0000``
-
-Accessible in Debug Mode or M-Mode.
-
-Ibex does not support the features requiring this register, so writes are ignored and it will always read as zero.
-
-Supervisor Context Register (scontext)
---------------------------------------
-
-CSR Address: ``0x7AA``
 
 Reset Value: ``0x0000_0000``
 

@@ -149,8 +149,6 @@ Some instructions will behave differently depending upon the state of the proces
     * ``tdata1``
     * ``tdata2``
     * ``tdata3``
-    * ``mcontext``
-    * ``scontext``
 
 * Loads/stores with ``mstatus.mprv`` set and unset.
 * EBreak behaviour in U/M mode with different ``dcsr.ebreakm`` / ``dcsr.ebreaku`` settings.
